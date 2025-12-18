@@ -1,2 +1,2 @@
 # test
-**Naleśniki**
+**Naleśniki i pierogi**
