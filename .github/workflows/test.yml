@@ -7,7 +7,7 @@ jobs:
             - uses: actions/checkout@v6
             - run: pip install nbconvert ipykernel
             - run: python -m nbconvert --to markdown --execute Untitled0.ipynb
-            - uses: actions/upload -artifact@v4
+            - uses: actions/upload-artifact@v4
               with:
                   path: Untitled0.md
                 
